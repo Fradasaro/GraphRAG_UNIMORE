@@ -19,6 +19,8 @@ Il cuore del sistema è un agente LangChain dotato di memoria conversazionale, c
 - **LLM & Embeddings:** OpenAI API (`gpt-4o-mini`, `text-embedding-3-small`)
 - **Frontend:** Streamlit
 - **Linguaggio:** Python
+
+
 🚀 Guida all'installazione
 1. Ripristino del Database
 Il cuore del sistema è il grafo Neo4j. Non è necessario eseguire nuovamente l'estrazione da Scopus.
@@ -29,19 +31,19 @@ Dal menu del DBMS (i tre puntini ...), seleziona Load from Dump e scegli il file
 Avvia il database.
 2. Configurazione dell'Ambiente
 Crea un ambiente virtuale e installa le dipendenze necessarie:
-Bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
 3. Variabili d'Ambiente
 Rinomina il file .env.example in .env e inserisci le tue credenziali:
-Snippet di codice
 OPENAI_API_KEY=la_tua_api_key
 NEO4J_PASSWORD=la_tua_password_neo4j
+
 4. Avvio dell'Applicazione
 Lancia l'interfaccia grafica basata su Streamlit con il seguente comando:
-Bash
 streamlit run app.py
+
 Nota architetturale: La cartella /ETL_Pipelines contiene gli script originali utilizzati per la Data Ingestion (chiamate API Scopus, vettorializzazione e bulk upload Cypher). Questi file sono forniti a esclusivo scopo di documentazione e non sono necessari per l'esecuzione del frontend.
 👤 Autore
 Francesco D'Asaro
