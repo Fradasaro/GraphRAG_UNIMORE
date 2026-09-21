@@ -19,8 +19,8 @@ Motore Ibrido Dinamico: Utilizza Pydantic per forzare l'LLM a estrarre entità s
 ### 1. Ripristino del Database
 Il cuore del sistema è il grafo Neo4j. Non è necessario eseguire nuovamente l'estrazione da Scopus.
 -
-Scaricailbackupdeldatabase(.dump)daGoogleDrive
-(INSERISCI_QUI_IL_LINK_AL_TUO_DUMP_SU_DRIVE)
+Scarica il backup del database(.dump)da Google Drive
+(https://drive.google.com/file/d/1raQbdG5usJkkXeaj3-3bDigLW3gVBbFJ/view?usp=sharing)
 - Apri Neo4j Desktop e crea un nuovo DBMS vuoto (Versione consigliata: >= 5.x).
 - Imposta la password iniziale.
 - Dal menu del DBMS (i tre puntini `...`), seleziona Load from Dump e scegli il file `neo4j.dump` appena scaricato.
@@ -48,6 +48,4 @@ streamlit run app.py
 ## 👤 Autore
 Francesco D'Asaro
 *Laurea Magistrale in Ingegneria Informatica - Università degli Studi di Modena e Reggio Emilia (UNIMORE)*
-[LinkedIn
-(https://img.shields.io/badge/LinkedIn-Connect-blue.svg)]
-https://www.linkedin.com/in/francesco-dasaro/
+
