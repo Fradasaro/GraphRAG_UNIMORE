@@ -43,7 +43,7 @@ Lancia l'interfaccia grafica basata su Streamlit con il seguente comando:
 ```bash
 streamlit run app.py
 ```
-*Nota architetturale: La cartella `/ETL_Pipelines` contiene gli script originali utilizzati per la Data Ingestion (chiamate API Scopus, vettorializzazione e bulk upload Cypher). Questi file sono forniti a esclusivo scopo di documentazione e non sono necessari per l'esecuzione del frontend.*
+*Nota architetturale: La cartella `/ETL_Pipelines` contiene gli script originali utilizzati per la Data Ingestion (chiamate carica_nel_grafo.py, crea_embeddings.py ed estrazione_scopus_vpn2.py). Questi file sono forniti a esclusivo scopo di documentazione e non sono necessari per l'esecuzione del frontend.*
 ---
 ## 👤 Autore
 Francesco D'Asaro
